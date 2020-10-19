@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: gunicorn candoit.wsgi --log-file -
